@@ -1,0 +1,8 @@
+# To input height and base of a triangle
+Base = float(input('Please input your triangular base: '))
+Height = float(input('Please input your triangular height: '))
+ 
+# To calculate the area of a triangle
+Area = (Base * Height)/ 2
+ 
+print('The area of a triangle is:  %0.2f' %Area)
